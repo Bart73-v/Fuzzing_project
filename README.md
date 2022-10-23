@@ -24,3 +24,8 @@ cd /src
 # start a child thread of afl-fuzz
 afl-fuzz -i ./testcases -o ./afl_output -S ASan -- ./fuzzing_group_02_ASan @@ ./output.tga
 ```
+
+for MSan
+```shell
+afl-fuzz -i ./testcases -o ./afl_output -S MSan -- ./fuzzing_group_02_MSan @@ ./output.tga
+```
