@@ -22,10 +22,10 @@ docker exec -it afl bash
 cd /src
 
 # start a child thread of afl-fuzz
-afl-fuzz -i ./testcases -o ./afl_output -S ASan -- ./fuzzing_group_02_ASan @@ ./output.tga
+afl-fuzz -i ./testcases -o ./afl_output -S ASan -- ./fuzzing_group_02_ASan @@ ./output_ASan.tga
 ```
 
 for MSan
 ```shell
-afl-fuzz -i ./testcases -o ./afl_output -S MSan -- ./fuzzing_group_02_MSan @@ ./output.tga
+afl-fuzz -i ./testcases -o ./afl_output -S MSan -- ./fuzzing_group_02_MSan @@ ./output_MSan.tga
 ```

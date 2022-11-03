@@ -11,7 +11,7 @@ project(fuzzing_group_02)
 set(CMAKE_CXX_STANDARD 20)
 
 # Add main.cpp file of project root directory as source file
-set(SOURCE_FILES picojpeg.c picojpeg.h jpg2tga.c)
+set(SOURCE_FILES picojpeg.c picojpeg.h jpg2tga.c stb_image.c)
 
 
 # Add executable target with source files listed in SOURCE_FILES variable

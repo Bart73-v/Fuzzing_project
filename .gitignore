@@ -89,3 +89,5 @@ _deps
 fuzzing_group_02*
 .idea/
 cmake-build-debug
+afl_output
+afl_output_bak
